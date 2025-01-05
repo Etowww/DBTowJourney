@@ -1,3 +1,43 @@
 * {
-    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: rgb(240, 246, 252);
 }
+
+body {
+  min-height: 100v;
+}
+
+nav {
+  border-bottom: solid 0.1rem rgb(240, 246, 252);
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav pre {
+  font-size: 0.3vw;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
