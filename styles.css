@@ -41,3 +41,17 @@ nav a {
   align-items: center;
 }
 
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 0.1rem rgb(240, 246, 252);
+  border-right: solid 0.1rem rgb(240, 246, 252);
+  width: 20%;
+  padding: 10px;
+}
+
+.sidenav h2 {
+  text-decoration: underline;
+}
